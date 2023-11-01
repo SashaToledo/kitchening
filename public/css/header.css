@@ -36,6 +36,26 @@
     text-align: center;
     text-transform: uppercase;
     padding: 5px 0;
-    border-bottom: 1px solid #ffffff;
+    
+}
+
+/*TABLET*/
+@media (min-width:768px) {
+    .header__bars{
+        display: none;
+    }
+    .header__nav ul{
+    flex-direction: row;
+    gap: 8px;
+    }
+    .header__nav ul li{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__nav ul li{
+        font-size: 1rem;
+    }
     
 }
